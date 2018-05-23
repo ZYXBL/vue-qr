@@ -76,6 +76,10 @@ export default {
     bindElement: {
       type: Boolean,
       default: true
+    },
+    correctLevel: {
+      type: String,
+      default: 'QRErrorCorrectLevel.H'
     }
   },
   name: 'vue-qr',
@@ -153,6 +157,7 @@ export default {
         text: that.text,
         size: that.size,
         margin: that.margin,
+        correctLevel: that.correctLevel,
         colorDark: that.colorDark,
         colorLight: that.colorLight,
         backgroundImage: img,

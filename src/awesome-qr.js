@@ -1278,7 +1278,7 @@ var AwesomeQRCode;
             typeNumber: 4,
             colorDark: "#000000",
             colorLight: "#ffffff",
-            correctLevel: QRErrorCorrectLevel.M,
+            correctLevel: QRErrorCorrectLevel.H,
             backgroundImage: undefined,
             backgroundDimming: 'rgba(0,0,0,0)',
             logoImage: undefined,
