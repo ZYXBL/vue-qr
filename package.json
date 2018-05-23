@@ -1,5 +1,5 @@
 {
-  "name": "vue-qrcode",
+  "name": "vue-qrcode2",
   "version": "1.3.0",
   "license": "MIT",
   "description": "The Vue 2.x component of Awesome-qr.js",
@@ -14,7 +14,13 @@
     "uuid": "^3.2.1",
     "vue": "^2.5.16"
   },
-  "keywords": ["vue-qr", "vue qr", "vue qrcode", "qr", "vue"],
+  "keywords": [
+    "vue-qr",
+    "vue qr",
+    "vue qrcode",
+    "qr",
+    "vue"
+  ],
   "devDependencies": {
     "autoprefixer": "^8.4.1",
     "babel-core": "^6.26.3",
@@ -54,5 +60,17 @@
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZYXBL/vue-qr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZYXBL/vue-qr/issues"
+  },
+  "homepage": "https://github.com/ZYXBL/vue-qr#readme"
 }
