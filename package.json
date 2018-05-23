@@ -1,6 +1,6 @@
 {
   "name": "vue-qrcode",
-  "version": "1.3",
+  "version": "1.3.0",
   "license": "MIT",
   "description": "The Vue 2.x component of Awesome-qr.js",
   "author": "Binaryify zyxbl",
