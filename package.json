@@ -15,10 +15,7 @@
     "vue": "^2.5.16"
   },
   "keywords": [
-    "vue-qr",
-    "vue qr",
-    "vue qrcode",
-    "qr",
+    "vue qrcode2",
     "vue"
   ],
   "devDependencies": {
