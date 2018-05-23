@@ -19,21 +19,21 @@ Example 1|Example 2|Example 3
 ## Installation
 **install with NPM**
 ```bash
-npm install vue-qr --save
+npm install vue-bstcode --save
 ```
 **Import**
 ```js
-import VueQr from 'vue-qr'
+import VueBstcode from 'vue-bstcode'
 
 new Vue({
-    components: {VueQr}
+    components: {VueBstcode}
 })
 ```
 ## Usage
 **In template**
 
 ```html
-<vue-qr :bgSrc='src' :logoSrc="src2" text="Hello world!" height="200" width="200"></vue-qr>
+<vue-bstcode :bgSrc='src' :logoSrc="src2" text="Hello world!" height="200" width="200"></vue-bstcode>
 ```
 Parameter | Explanation
 ----|----
@@ -55,7 +55,7 @@ binarize | If set to true, the whole image will be binarized with the given thre
 binarizeThreshold | Threshold used to binarize the whole image. Default is 128. (0 < threshold < 255) 二值化处理的阈值
 callback | Data URI of the generated QR code will be available here. 生成的二维码 Data URI 可以在回调中取得
 bindElement | If set to true, the generated QR will bind to a HTML element automatically. Default is TRUE. 指定是否需要自动将生成的二维码绑定到HTML上, 默认是TRUE
-
+correctLevel | 错误率等级：L: 1、M: 0、Q: 3、H: 2，默认2
 
 
 For more details you should definitely check out [Awesome-qr.js ](https://github.com/SumiMakito/Awesome-qr.js) 

@@ -78,8 +78,8 @@ export default {
       default: true
     },
     correctLevel: {
-      type: String,
-      default: 'QRErrorCorrectLevel.H'
+      type: Number,
+      default: 0
     }
   },
   name: 'vue-qr',
