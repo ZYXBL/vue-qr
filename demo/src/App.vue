@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <vue-qr :text="text" :autoColor='true' :logoSrc="src2" :size="400" :margin="0"></vue-qr>
-    <vue-qr text="Hello world!" :autoColor='true' :bgSrc="src" :logoSrc="src2" :size="400" :margin="0" style="margin-top:30px" :dotScale="0.35">
+    <vue-qr :text="text" :autoColor='true' :logoSrc="src2" :size="400" :margin="80"></vue-qr>
+    <vue-qr text="Hello world!" :autoColor='true' :bgSrc="src" :logoSrc="src2" :margin="80" :size="400" style="margin-top:30px" :dotScale="0.35">
     </vue-qr>
     <vue-qr :text="testNumber"></vue-qr>
   </div>

@@ -868,8 +868,8 @@ var AwesomeQRCode;
                 dotScale = 0.35;
             }
 
-            _oContext.save();
             _oContext.translate(margin, margin);
+            _oContext.save();
 
             //_oContext.rect(whiteMargin ? 0 : -margin, whiteMargin ? 0 : -margin, size, size);
             //_oContext.fillStyle = "#ffffff";
@@ -1080,8 +1080,9 @@ var AwesomeQRCode;
                 _oContext.restore();
 
                 var logoSize = viewportSize * logoScale;
-                var x = 0.5 * (size - logoSize);
+                var x = 0.5 * (size - logoSize) - margin;
                 var y = x;
+                console.log(x)
 
                 _oContext.fillStyle = '#FFFFFF';
                 _oContext.save();
