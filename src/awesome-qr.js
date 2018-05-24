@@ -1082,7 +1082,6 @@ var AwesomeQRCode;
                 var logoSize = viewportSize * logoScale;
                 var x = 0.5 * (size - logoSize) - margin;
                 var y = x;
-                console.log(x)
 
                 _oContext.fillStyle = '#FFFFFF';
                 _oContext.save();
